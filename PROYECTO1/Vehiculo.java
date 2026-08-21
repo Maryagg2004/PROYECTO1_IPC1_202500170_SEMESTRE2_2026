@@ -8,6 +8,7 @@ public class Vehiculo {
         if (placa == null) {
             return false;
         }
+        
         return placa.matches("P[0-9]{3}[A-Z]{3}");
     }
 }
